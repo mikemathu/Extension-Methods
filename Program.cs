@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MyExtensionMethods;
+using ExtensionMethods;
 
 namespace ExtensionMethods
 {
-    public class program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] arg)
         {
-            Console.WriteLine("***** Fun with Extension Methods *****\n");
+            /*Console.WriteLine("***** Fun with Extension Methods *****\n");
             
             //The in thas assumed a new identity
             int myInt = 12345678;
@@ -25,7 +26,12 @@ namespace ExtensionMethods
             Console.WriteLine("Value of myIn: {0}", myInt);
             Console.WriteLine("Reversed digits of myInt: {0}", myInt.ReverseDigits());
 
-            Console.ReadLine();
+            Console.ReadLine();*/
+
+
+
+            string message = "I am sorry, Dave. I am afraid I cant do that.";
+            Console.WriteLine(message.ToRandomCase());
         }
 
     }
